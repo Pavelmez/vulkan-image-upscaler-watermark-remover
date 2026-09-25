@@ -13,10 +13,12 @@ bin/
 *.zip
 *.onnx
 
-# Upscaled outputs & temporary extraction directories
-output/*
-!output/.gitkeep
+# Upscaled outputs & temporary extraction directories (auto-created by app)
+output/
 _temp_*
+
+# Local test images
+Test Image/
 
 # System & editor files
 .vscode/
