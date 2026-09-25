@@ -1,0 +1,26 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Bytecode & caches
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Heavy binaries & downloaded models (app downloads them on-demand via Engines dialog)
+bin/
+*.zip
+*.onnx
+
+# Upscaled outputs & temporary extraction directories
+output/*
+!output/.gitkeep
+_temp_*
+
+# System & editor files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
